@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &297092913169159526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4655652142558675600}
+  - component: {fileID: 6757763727309860807}
+  m_Layer: 0
+  m_Name: DataToHold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655652142558675600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297092913169159526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 963.3198, y: 536.69336, z: -0.009887695}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6757763727309860807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297092913169159526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc69c15f0393e5649a16008237a1c248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedLanguage: 2
+  TutorialQuestions:
+  - {fileID: 3160577578166282661, guid: ac70be4b1fa83e743b53412d675a12ac, type: 3}
+  - {fileID: 3943992468099132310, guid: ce158ffb2ea9d5648b0b4f0a09384a24, type: 3}
+  - {fileID: 3943992468099132310, guid: f6a190fd9a74313419b2dd4eb3f1749f, type: 3}
+  - {fileID: 2946875350719300907, guid: 3b0bc29ad75c12c4dbefdfb66cfba8fb, type: 3}
+  - {fileID: 7233555269425276172, guid: aa428add1e7f1ab46aa943465ea0a57a, type: 3}
+  - {fileID: 7007808628842383691, guid: c79d56bc72460be498c1b57177c73997, type: 3}
+  - {fileID: 8377376790862210671, guid: d95ea70c198e1fc4ca21bbe100bb06f2, type: 3}
+  - {fileID: 2528303646380839107, guid: 8aedfddfa20f76b4aa309b8b73ef40b5, type: 3}
+  - {fileID: 2528303646380839107, guid: 2eb60065aa4cfcf4394e288fa908b39f, type: 3}
+  - {fileID: 8377376790862210671, guid: cc22d81773103244fbc413d11280c6e4, type: 3}
+  - {fileID: 2528303646380839107, guid: 54f30a0e775f10549846488fc466beba, type: 3}
+  - {fileID: 7439409237974847815, guid: b499bbe1cd2fb7749be6e6e926df029a, type: 3}
+  - {fileID: 2528303646380839107, guid: 91e0a3d7c3601d74db4deb831a82c14b, type: 3}
+  - {fileID: 2528303646380839107, guid: cacff77a0a9f22142ab507e704252f2a, type: 3}
+  QuizQuestions: []
+  InteractingWithBAT: {fileID: 0}
